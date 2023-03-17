@@ -1,0 +1,18 @@
+//Write a c program to find n area of rectangle using sub function.
+ #include<stdio.h>
+ 
+void findarea(float x,float y)
+{
+	float area =x*y;
+	printf("\n Area of the rectngle: %f units\n",area);
+}
+
+int main()
+{
+	float l,b;
+	printf("\n Enter the length and breadth of the rectangle : \n");
+	scanf("%f",&l);
+	scanf("%f",&b);
+	findarea(l,b);
+	return 0;
+}
